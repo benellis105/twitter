@@ -1,0 +1,92 @@
+body {
+    background-color: #282931;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.searchContainer {
+    margin: auto;
+    width: 330px;
+}
+
+.description {
+    position: relative;
+    margin: auto;
+    font-family: "Roboto";
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: 300;
+    max-width: 600px;
+}
+
+.go {
+    width: 80px;
+    font-family: "Roboto";
+    font-size: 18pt;
+    margin-left: 5px;
+}
+
+.searchField {
+    padding: 5px;
+    margin: auto;
+    font-family: "Roboto";
+    font-size: 18pt;
+    width: 230px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.outputBox {
+    font-family: "Roboto";
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24pt;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.download {
+    position: relative;
+    margin: auto;
+    background-color: #464646;
+    font-family: "Roboto";
+    font-size: 24pt;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 256px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 5px 8px #000000;
+}
+
+@media only screen and (max-width: 400px) {
+    .searchContainer {
+        width: 100%;
+    }
+    .outputBox {
+        font-size: 18pt;
+    }
+    .searchField {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+       .searchField {
+            margin-top: 20px;
+       }
+}

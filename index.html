@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="twitter.css">
+    <script src="search.js" type="text/javascript"></script>
+    <title>Twitter Friends Lister</title>
+  </head>
+  <body>
+      <div class="searchContainer">
+       <input type="search" class="searchField" id="searchField" placeholder="Search for a user..."></input><input type="submit" class="go" value="Go" onclick="search()"></input>
+        <div class="outputBox" id="outputBox">
+        </div>
+      </div>
+        <div class = "description">
+        <p>This project retrieves the Twitter usernames of the first 200 friends off a specified Twitter user's account. 
+            The project uses the 'twitteroauth' library in PHP to perform the Twitter API queries. The library can be found at  https://github.com/abraham/twitteroauth.
+            Note: Twitter only allows 15 queries in a 15 minute time frame to prevent abuse. If the results come up blank, it's because the rate limit has been exceeded.
+        </p>
+    <div class="download"><a href="https://github.com/benellis105/twitter">Download Source</a></div>
+  </body>
+</html>
